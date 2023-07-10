@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ringBar">
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.5"
+            android:thicknessRatio="20.0"
+            android:useLevel="true">
+            <gradient
+                android:startColor="#c4c7cc"
+                android:centerColor="#c4c7cc"
+                android:endColor="#e8ecf2"/>
+        </shape>
+    </item>
+    <item android:id="@+id/piBar">
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="100"
+            android:thicknessRatio="2.5"
+            android:useLevel="true">
+            <gradient
+                android:startColor="#c4c7cc"
+                android:centerColor="#c4c7cc"
+                android:endColor="#e8ecf2"/>
+        </shape>
+    </item>
+</layer-list>

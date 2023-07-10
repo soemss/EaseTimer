@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:radius="50dp"
+        />
+    <solid
+
+        android:color="#e1e6ea"/>
+<!--    <gradient-->
+<!--        android:startColor="@color/max_bar"-->
+<!--        android:centerColor="@color/colorPrimary"-->
+<!--        android:endColor="@color/min_bar"/>-->
+</shape>
